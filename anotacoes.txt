@@ -1,0 +1,19 @@
+#CRUD em Python com FatAPI 
+
+#criar o diretório do projeto
+mkdir PyFastApiSqlAlchemy
+
+#criar o ambiente virtual do Python
+python3 -m venv .venv
+
+#ativar o ambiente virtual
+.venv\Scripts\activate
+
+#Instalar as bibliotecas necessárias
+pip install fastapi uvicorn sqlalchemy
+
+#FastAPI é um framework web 
+#Uvicorn é um Web server ASGI em Python para executar o projeto
+#SQLAlchemy ORM utilizado para mapear os objetos para o banco de dados
+
+
